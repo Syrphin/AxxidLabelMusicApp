@@ -9,21 +9,67 @@
 /* Begin PBXBuildFile section */
 		F13C015627E933B60001F9D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C015527E933B60001F9D5 /* AppDelegate.swift */; };
 		F13C015827E933B60001F9D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C015727E933B60001F9D5 /* SceneDelegate.swift */; };
-		F13C015A27E933B60001F9D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C015927E933B60001F9D5 /* ViewController.swift */; };
-		F13C015D27E933B60001F9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C015B27E933B60001F9D5 /* Main.storyboard */; };
-		F13C015F27E933BB0001F9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13C015E27E933BB0001F9D5 /* Assets.xcassets */; };
-		F13C016227E933BB0001F9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C016027E933BB0001F9D5 /* LaunchScreen.storyboard */; };
+		F13C020827E9362E0001F9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13C01E127E9362B0001F9D5 /* Assets.xcassets */; };
+		F13C020927E9362E0001F9D5 /* Kraftwerk - Musique Non Stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F13C01E327E9362D0001F9D5 /* Kraftwerk - Musique Non Stop.mp3 */; };
+		F13C020B27E9362E0001F9D5 /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C01E627E9362D0001F9D5 /* ArtistDetailViewController.swift */; };
+		F13C020C27E9362E0001F9D5 /* BioDetailViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C01E727E9362D0001F9D5 /* BioDetailViewController1.swift */; };
+		F13C020D27E9362E0001F9D5 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C01E827E9362D0001F9D5 /* MusicViewController.swift */; };
+		F13C020E27E9362E0001F9D5 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C01E927E9362D0001F9D5 /* TrackListViewController.swift */; };
+		F13C020F27E9362E0001F9D5 /* ArtistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C01EA27E9362D0001F9D5 /* ArtistListViewController.swift */; };
+		F13C021027E9362E0001F9D5 /* ArchivoBlack-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13C01EC27E9362D0001F9D5 /* ArchivoBlack-Regular.ttf */; };
+		F13C021127E9362E0001F9D5 /* Shrikhand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13C01ED27E9362D0001F9D5 /* Shrikhand-Regular.ttf */; };
+		F13C021227E9362E0001F9D5 /* JacquesFrancoisShadow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13C01EE27E9362D0001F9D5 /* JacquesFrancoisShadow-Regular.ttf */; };
+		F13C021327E9362E0001F9D5 /* Eater-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13C01EF27E9362D0001F9D5 /* Eater-Regular.ttf */; };
+		F13C021427E9362E0001F9D5 /* GoblinOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13C01F027E9362D0001F9D5 /* GoblinOne-Regular.ttf */; };
+		F13C021527E9362E0001F9D5 /* PathwayGothicOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F13C01F127E9362D0001F9D5 /* PathwayGothicOne-Regular.ttf */; };
+		F13C021627E9362E0001F9D5 /* TrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13C01F427E9362D0001F9D5 /* TrackTableViewCell.xib */; };
+		F13C021727E9362E0001F9D5 /* Artists.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C01F527E9362D0001F9D5 /* Artists.storyboard */; };
+		F13C021827E9362E0001F9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C01F627E9362D0001F9D5 /* LaunchScreen.storyboard */; };
+		F13C021927E9362E0001F9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C01F827E9362E0001F9D5 /* Main.storyboard */; };
+		F13C021A27E9362E0001F9D5 /* Tracks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C01F927E9362E0001F9D5 /* Tracks.storyboard */; };
+		F13C021B27E9362E0001F9D5 /* Albums.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C01FA27E9362E0001F9D5 /* Albums.storyboard */; };
+		F13C021C27E9362E0001F9D5 /* Podcasts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C01FB27E9362E0001F9D5 /* Podcasts.storyboard */; };
+		F13C021D27E9362E0001F9D5 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C01FC27E9362E0001F9D5 /* AlbumTableViewCell.swift */; };
+		F13C021E27E9362E0001F9D5 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C01FD27E9362E0001F9D5 /* ArtistTableViewCell.swift */; };
+		F13C021F27E9362E0001F9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13C01FE27E9362E0001F9D5 /* Main.storyboard */; };
+		F13C022127E9362E0001F9D5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C020327E9362E0001F9D5 /* Artist.swift */; };
+		F13C022227E9362E0001F9D5 /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C020427E9362E0001F9D5 /* Tracks.swift */; };
+		F13C022327E9362E0001F9D5 /* Artists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C020527E9362E0001F9D5 /* Artists.swift */; };
+		F13C022427E9362E0001F9D5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C020727E9362E0001F9D5 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F13C015227E933B60001F9D5 /* AxxidLabelMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxxidLabelMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13C015527E933B60001F9D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13C015727E933B60001F9D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F13C015927E933B60001F9D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F13C015C27E933B60001F9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F13C015E27E933BB0001F9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F13C016127E933BB0001F9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13C016327E933BB0001F9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13C01E127E9362B0001F9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13C01E327E9362D0001F9D5 /* Kraftwerk - Musique Non Stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kraftwerk - Musique Non Stop.mp3"; sourceTree = "<group>"; };
+		F13C01E627E9362D0001F9D5 /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
+		F13C01E727E9362D0001F9D5 /* BioDetailViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioDetailViewController1.swift; sourceTree = "<group>"; };
+		F13C01E827E9362D0001F9D5 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		F13C01E927E9362D0001F9D5 /* TrackListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		F13C01EA27E9362D0001F9D5 /* ArtistListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistListViewController.swift; sourceTree = "<group>"; };
+		F13C01EC27E9362D0001F9D5 /* ArchivoBlack-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchivoBlack-Regular.ttf"; sourceTree = "<group>"; };
+		F13C01ED27E9362D0001F9D5 /* Shrikhand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shrikhand-Regular.ttf"; sourceTree = "<group>"; };
+		F13C01EE27E9362D0001F9D5 /* JacquesFrancoisShadow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JacquesFrancoisShadow-Regular.ttf"; sourceTree = "<group>"; };
+		F13C01EF27E9362D0001F9D5 /* Eater-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eater-Regular.ttf"; sourceTree = "<group>"; };
+		F13C01F027E9362D0001F9D5 /* GoblinOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GoblinOne-Regular.ttf"; sourceTree = "<group>"; };
+		F13C01F127E9362D0001F9D5 /* PathwayGothicOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PathwayGothicOne-Regular.ttf"; sourceTree = "<group>"; };
+		F13C01F427E9362D0001F9D5 /* TrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackTableViewCell.xib; sourceTree = "<group>"; };
+		F13C01F527E9362D0001F9D5 /* Artists.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Artists.storyboard; sourceTree = "<group>"; };
+		F13C01F727E9362D0001F9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13C01F827E9362E0001F9D5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F13C01F927E9362E0001F9D5 /* Tracks.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tracks.storyboard; sourceTree = "<group>"; };
+		F13C01FA27E9362E0001F9D5 /* Albums.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Albums.storyboard; sourceTree = "<group>"; };
+		F13C01FB27E9362E0001F9D5 /* Podcasts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Podcasts.storyboard; sourceTree = "<group>"; };
+		F13C01FC27E9362E0001F9D5 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		F13C01FD27E9362E0001F9D5 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		F13C01FF27E9362E0001F9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13C020327E9362E0001F9D5 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		F13C020427E9362E0001F9D5 /* Tracks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
+		F13C020527E9362E0001F9D5 /* Artists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artists.swift; sourceTree = "<group>"; };
+		F13C020727E9362E0001F9D5 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +102,103 @@
 		F13C015427E933B60001F9D5 /* AxxidLabelMusicApp */ = {
 			isa = PBXGroup;
 			children = (
-				F13C015527E933B60001F9D5 /* AppDelegate.swift */,
+				F13C01F227E9362D0001F9D5 /* Views */,
 				F13C015727E933B60001F9D5 /* SceneDelegate.swift */,
-				F13C015927E933B60001F9D5 /* ViewController.swift */,
-				F13C015B27E933B60001F9D5 /* Main.storyboard */,
-				F13C015E27E933BB0001F9D5 /* Assets.xcassets */,
-				F13C016027E933BB0001F9D5 /* LaunchScreen.storyboard */,
+				F13C015527E933B60001F9D5 /* AppDelegate.swift */,
 				F13C016327E933BB0001F9D5 /* Info.plist */,
+				F13C01E127E9362B0001F9D5 /* Assets.xcassets */,
+				F13C020027E9362E0001F9D5 /* Models */,
+				F13C01E227E9362D0001F9D5 /* MusicFiles */,
+				F13C01E527E9362D0001F9D5 /* View Controllers */,
+				F13C01EB27E9362D0001F9D5 /* Fonts */,
 			);
 			path = AxxidLabelMusicApp;
+			sourceTree = "<group>";
+		};
+		F13C01E227E9362D0001F9D5 /* MusicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F13C01E327E9362D0001F9D5 /* Kraftwerk - Musique Non Stop.mp3 */,
+			);
+			path = MusicFiles;
+			sourceTree = "<group>";
+		};
+		F13C01E527E9362D0001F9D5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F13C01E627E9362D0001F9D5 /* ArtistDetailViewController.swift */,
+				F13C01E727E9362D0001F9D5 /* BioDetailViewController1.swift */,
+				F13C01E827E9362D0001F9D5 /* MusicViewController.swift */,
+				F13C01E927E9362D0001F9D5 /* TrackListViewController.swift */,
+				F13C01EA27E9362D0001F9D5 /* ArtistListViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F13C01EB27E9362D0001F9D5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F13C01EC27E9362D0001F9D5 /* ArchivoBlack-Regular.ttf */,
+				F13C01ED27E9362D0001F9D5 /* Shrikhand-Regular.ttf */,
+				F13C01EE27E9362D0001F9D5 /* JacquesFrancoisShadow-Regular.ttf */,
+				F13C01EF27E9362D0001F9D5 /* Eater-Regular.ttf */,
+				F13C01F027E9362D0001F9D5 /* GoblinOne-Regular.ttf */,
+				F13C01F127E9362D0001F9D5 /* PathwayGothicOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F13C01F227E9362D0001F9D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F13C01F327E9362D0001F9D5 /* Storyboards */,
+				F13C01FC27E9362E0001F9D5 /* AlbumTableViewCell.swift */,
+				F13C01FD27E9362E0001F9D5 /* ArtistTableViewCell.swift */,
+				F13C01FE27E9362E0001F9D5 /* Main.storyboard */,
+			);
+			name = Views;
+			path = "../../../Downloads/AxxidLabelMusicApp  /Axxid Label/Views";
+			sourceTree = "<group>";
+		};
+		F13C01F327E9362D0001F9D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F13C01F427E9362D0001F9D5 /* TrackTableViewCell.xib */,
+				F13C01F527E9362D0001F9D5 /* Artists.storyboard */,
+				F13C01F627E9362D0001F9D5 /* LaunchScreen.storyboard */,
+				F13C01F827E9362E0001F9D5 /* Main.storyboard */,
+				F13C01F927E9362E0001F9D5 /* Tracks.storyboard */,
+				F13C01FA27E9362E0001F9D5 /* Albums.storyboard */,
+				F13C01FB27E9362E0001F9D5 /* Podcasts.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F13C020027E9362E0001F9D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F13C020227E9362E0001F9D5 /* Struct */,
+				F13C020527E9362E0001F9D5 /* Artists.swift */,
+				F13C020627E9362E0001F9D5 /* Services */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F13C020227E9362E0001F9D5 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				F13C020327E9362E0001F9D5 /* Artist.swift */,
+				F13C020427E9362E0001F9D5 /* Tracks.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		F13C020627E9362E0001F9D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F13C020727E9362E0001F9D5 /* ImageLoader.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +259,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13C016227E933BB0001F9D5 /* LaunchScreen.storyboard in Resources */,
-				F13C015F27E933BB0001F9D5 /* Assets.xcassets in Resources */,
-				F13C015D27E933B60001F9D5 /* Main.storyboard in Resources */,
+				F13C021127E9362E0001F9D5 /* Shrikhand-Regular.ttf in Resources */,
+				F13C021427E9362E0001F9D5 /* GoblinOne-Regular.ttf in Resources */,
+				F13C020927E9362E0001F9D5 /* Kraftwerk - Musique Non Stop.mp3 in Resources */,
+				F13C021927E9362E0001F9D5 /* Main.storyboard in Resources */,
+				F13C021727E9362E0001F9D5 /* Artists.storyboard in Resources */,
+				F13C021227E9362E0001F9D5 /* JacquesFrancoisShadow-Regular.ttf in Resources */,
+				F13C021027E9362E0001F9D5 /* ArchivoBlack-Regular.ttf in Resources */,
+				F13C021A27E9362E0001F9D5 /* Tracks.storyboard in Resources */,
+				F13C021527E9362E0001F9D5 /* PathwayGothicOne-Regular.ttf in Resources */,
+				F13C021627E9362E0001F9D5 /* TrackTableViewCell.xib in Resources */,
+				F13C021C27E9362E0001F9D5 /* Podcasts.storyboard in Resources */,
+				F13C021F27E9362E0001F9D5 /* Main.storyboard in Resources */,
+				F13C020827E9362E0001F9D5 /* Assets.xcassets in Resources */,
+				F13C021827E9362E0001F9D5 /* LaunchScreen.storyboard in Resources */,
+				F13C021B27E9362E0001F9D5 /* Albums.storyboard in Resources */,
+				F13C021327E9362E0001F9D5 /* Eater-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +285,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13C015A27E933B60001F9D5 /* ViewController.swift in Sources */,
+				F13C020D27E9362E0001F9D5 /* MusicViewController.swift in Sources */,
+				F13C020B27E9362E0001F9D5 /* ArtistDetailViewController.swift in Sources */,
+				F13C022427E9362E0001F9D5 /* ImageLoader.swift in Sources */,
+				F13C022327E9362E0001F9D5 /* Artists.swift in Sources */,
+				F13C021E27E9362E0001F9D5 /* ArtistTableViewCell.swift in Sources */,
+				F13C020E27E9362E0001F9D5 /* TrackListViewController.swift in Sources */,
+				F13C022227E9362E0001F9D5 /* Tracks.swift in Sources */,
+				F13C020F27E9362E0001F9D5 /* ArtistListViewController.swift in Sources */,
 				F13C015627E933B60001F9D5 /* AppDelegate.swift in Sources */,
+				F13C022127E9362E0001F9D5 /* Artist.swift in Sources */,
+				F13C021D27E9362E0001F9D5 /* AlbumTableViewCell.swift in Sources */,
 				F13C015827E933B60001F9D5 /* SceneDelegate.swift in Sources */,
+				F13C020C27E9362E0001F9D5 /* BioDetailViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F13C015B27E933B60001F9D5 /* Main.storyboard */ = {
+		F13C01F627E9362D0001F9D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F13C015C27E933B60001F9D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F13C016027E933BB0001F9D5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F13C016127E933BB0001F9D5 /* Base */,
+				F13C01F727E9362D0001F9D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F13C01FE27E9362E0001F9D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13C01FF27E9362E0001F9D5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
